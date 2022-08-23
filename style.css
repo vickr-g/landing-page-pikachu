@@ -20,12 +20,20 @@
     padding-right: var(--space-default);
     padding-bottom: 24px;
     padding-left: var(--space-default);
+    font-family: 'Righteous', cursive;
 
  }
  header{
-background-color: aqua;
 height: 48px;
-
+ }
+ .logo{
+     display: inline-flex;
+     gap: 16px;
+     align-items: center;
+     font-size: 32px;
+     text-decoration: none;
+     color: var(--secondary-color);
+     
  }
 
  main{
