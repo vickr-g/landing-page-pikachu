@@ -128,4 +128,20 @@ color: var(--secondary-color);
     footer{
         display: none;
     }
+
+    @media (max-width: 640px){
+        .pikachu-img{
+            width: 90vw;
+        }
+        .description__title{
+            font-size: 10vw;
+        }
+        .action{
+            width: 100%;
+        }
+        .description__text{
+            display: none;
+        }
+
+    }
  }
